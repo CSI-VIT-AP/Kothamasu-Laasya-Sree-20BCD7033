@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="back p-5">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg mb-5">
+            <div class="container">
+                <button class="navbar-toggler ml-auto" style="color:white;border-width:0px;" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav m-auto">
+                        <a class="nav-link active" id="navItem1" href="https://firstportfolio.ccbp.tech/">
+                            Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        <a class="nav-link" href="#https://firstportfolio.ccbp.tech/" id="navItem2">About</a>
+                        <a class="nav-link" href="https://firstportfolio.ccbp.tech/" id="navItem3">Blog</a>
+                        <a class="nav-link" target="_blank" href="https://caitlyngreffly.com/static/CaitlynGrefflySoftwareEngineerResume-014ac1ca064487683b00d199ea8605fa.pdf" id="navItem4">Resume</a>
+                        <a class="nav-link" href="https://firstportfolio.ccbp.tech/" id="navItem5">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="Blog" class="pt-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="card shadow col-12 col-md-6 mt-2">
+                        <h1 class="blog-head">How to Support the Junior Dev on Your Team</h1>
+                        <p class="blog-para">With fresh new devs popping out of CS programs bootcamps and self-taught paths every day chances are you are going to end up working with one and its in everyones best interest that they succeed.<br />December 9th, 2019</p>
+                    </div>
+                    <div class="card shadow col-12 col-md-6 mt-2">
+                        <h1 class="blog-head head-2">Translating Bootcamp to Real Dev Job</h1>
+                        <p class="blog-para">I didn't really know if my life as a developer would look a lot like my life as a code school kid or not. As I transitioned into my first dev job, I encountered some surprises and realized I had had some misconceptions.
+                            <br />October 22, 2019
+                        </p>
+                    </div>
+                    <div class="card shadow col-12 col-md-6 mt-2 ">
+                        <h1 class="blog-head head-1" stlye="text-decoration-color:#867c03;">My First Week in Tech</h1>
+                        <p class="blog-para">There I was, adjusting my new blue light glasses while sitting at my cubicle, and trying to answer the question 'So you're the new engineer right?' with a straight face. I felt a bit like I was role-playing someone else's life, but I wasn't.
+                            <br />October 20th, 2019
+                        </p>
+                    </div>
+                    <div class="card shadow col-12 col-md-6 mt-2">
+                        <h1 class="blog-head  head-1">Why Not Having a CS Degree is Awesome</h1>
+                        <p class="blog-para">No matter what field you came from, youll have a unique skill set you can offer your future employer.<br />November 5th, 2019</p>
+                    </div>
+                    <div class="card shadow col-12 col-md-6 mt-2">
+                        <h1 class="blog-head head-2">The Cost of a Coding Bootcamp</h1>
+                        <p class="blog-para">Before and after I went through my bootcamp, I spent some time weighing the costs and financial benefits of a coding bootcamp. Here's what I found.<br />October 22, 2019</p>
+                    </div>
+                    <div class="card shadow col-12 col-md-6 mt-2">
+                        <h1 class="blog-head">Coding Bootcamp Realities</h1>
+                        <p class="blog-para">As someone who recently spent 6.5 months in a coding bootcamp, I can say I definitely thought I knew what I was getting myself into. I was wrong.<br />October 2nd, 2019</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-row pt-5">
+            <p class="para-3 ml-3 justify-content-start">Created by Caitlyn Greffly</p>
+            <div class="ml-auto">
+                <a><i class="fab fa-github icon"></i></a>
+                <a><i class="fab fa-twitter icon "></i></a>
+                <a><i class="fab fa-linkedin icon"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg {
+    background-color: #056858;
+}
+
+.back {
+    background-color: #e6e6e6;
+    background-size: cover;
+    width: 100%;
+}
+
+.card {
+    padding: 25px;
+}
+
+#navItem1 {
+    margin-right: 10px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: "Roboto";
+}
+
+#navItem2 {
+    margin-right: 10px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    margin-right: 10px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    margin-right: 10px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: "Roboto";
+}
+
+#navItem5 {
+    margin-right: 10px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: "Roboto";
+}
+
+.icon {
+    font-size: 50px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    color: #019b91;
+}
+
+.para-3 {
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: normal;
+}
+
+.blog-head {
+    font-size: 40px;
+    font-family: "Bree Serif";
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: #620662;
+}
+
+.head-1 {
+    text-decoration-color: #867c03;
+}
+
+.head-2 {
+    text-decoration-color: #0df9e3;
+}
+
+.blog-para {
+    font-size: 20px;
+    font-family: "Roboto";
+}
